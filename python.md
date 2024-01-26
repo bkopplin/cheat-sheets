@@ -16,7 +16,7 @@ Deactivation
 deactivate
 ```
 ## further reading
-Guide from [python.land](https://python.land/virtual-environments/virtualenv)
+Guide from [python.land](https://python.land/virtual-environments/virtualenv) and [python venv primer](https://realpython.com/python-virtual-environments-a-primer/)
 
 # requirements
 ```
