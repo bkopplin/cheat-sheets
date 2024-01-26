@@ -1,3 +1,4 @@
+
 # venv
 Creation
 ```bash
@@ -16,3 +17,9 @@ deactivate
 ```
 ## further reading
 Guide from [python.land](https://python.land/virtual-environments/virtualenv)
+
+# requirements
+Creation
+```
+pip freeze > requirements.txt
+```
