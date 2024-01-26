@@ -19,7 +19,7 @@ deactivate
 Guide from [python.land](https://python.land/virtual-environments/virtualenv)
 
 # requirements
-Creation
 ```
 pip freeze > requirements.txt
+pip install -r requirements.txt
 ```
