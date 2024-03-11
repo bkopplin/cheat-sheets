@@ -1,8 +1,23 @@
 # Powershell
-PATH
+## Environment variables
+Set
 ```PowerShell
-echo $Env:Path
+$Env:Foo=bar
 ```
+Get
+```PowerShell
+$Env:Path
+```
+Remove
+```PowerShell
+Remove-Item Env:\SOME_VARIABLE
+```
+See all set env variables
+```PowerShell
+Get-ChildItem Env:
+```
+
+## Other
 source of an executable
 ```
 (Get-Command python).Source
