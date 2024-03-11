@@ -1,5 +1,5 @@
 
-# venv
+# venv [^1][^2]
 Creation
 ```bash
 python -m venv venv # creates a venv
@@ -15,11 +15,13 @@ Deactivation
 ```
 deactivate
 ```
-## further reading
-Guide from [python.land](https://python.land/virtual-environments/virtualenv) and [python venv primer](https://realpython.com/python-virtual-environments-a-primer/)
 
 # requirements
 ```
 pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
+
+# Further Reading
+[^1]: [python.land](https://python.land/virtual-environments/virtualenv)
+[^2]: [python venv primer](https://realpython.com/python-virtual-environments-a-primer/)
